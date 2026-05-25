@@ -1,0 +1,13 @@
+[package]
+name = "tool-call-plan"
+version = "0.1.0"
+edition = "2021"
+description = "Build and execute ordered tool call plans for LLM agents"
+license = "MIT"
+repository = "https://github.com/MukundaKatta/tool-call-plan-rs"
+keywords = ["llm", "agent", "planning", "tools", "orchestration"]
+categories = ["development-tools"]
+exclude = ["target/*", ".github/*", "*.log"]
+
+[dependencies]
+serde_json = "1"
